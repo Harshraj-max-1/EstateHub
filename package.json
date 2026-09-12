@@ -1,0 +1,14 @@
+{
+  "name": "estatehub-workspace",
+  "version": "1.0.0",
+  "description": "EstateHub MERN Stack Real Estate Marketplace",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "install-all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": ["mern", "real-estate", "estatehub", "react", "express", "mongodb"],
+  "author": "EstateHub Team",
+  "license": "MIT"
+}
